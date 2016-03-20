@@ -1,3 +1,4 @@
+
 package br.univel.interfaces;
 
 import br.univel.classeabstrata.DesenhoAbstrato;
@@ -34,4 +35,3 @@ public class ExH extends DesenhoAbstrato {
 	}
 
 }
-//linha == 0 || linha == ALTURA - 1 || coluna == traco
