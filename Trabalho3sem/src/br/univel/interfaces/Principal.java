@@ -7,7 +7,7 @@ import java.util.List;
 public class Principal {
 	public static void main(String[] args) {
 		List<Desenho> lista = new LinkedList<>();
-		
+
 		lista.add(new ExA());
 		lista.add(new ExB());
 		lista.add(new ExC());
@@ -24,8 +24,7 @@ public class Principal {
 		lista.add(new ExN());
 		lista.add(new ExO());
 		lista.add(new ExP());
-	
-		
+
 		for (Desenho d : lista) {
 			d.desenhar();
 		}

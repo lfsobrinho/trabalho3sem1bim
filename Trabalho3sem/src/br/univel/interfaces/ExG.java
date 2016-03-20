@@ -2,14 +2,13 @@ package br.univel.interfaces;
 
 import br.univel.classeabstrata.DesenhoAbstrato;
 
-public class ExG extends DesenhoAbstrato{
-	
+public class ExG extends DesenhoAbstrato {
+
 	public static int ALTURA = 8;
 
 	@Override
 	public void desenhar() {
 		identificar();
-		
 
 		int traco = 8;
 		for (int linha = 0; linha < 8; linha++) {
@@ -29,5 +28,5 @@ public class ExG extends DesenhoAbstrato{
 	protected String getNome() {
 		return "G";
 	}
-	
+
 }

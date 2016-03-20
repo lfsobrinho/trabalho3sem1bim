@@ -1,14 +1,15 @@
 package br.univel.interfaces;
+
 import br.univel.classeabstrata.DesenhoAbstrato;
+
 public class ExC extends DesenhoAbstrato {
 
 	public static int ALTURA = 8;
-	
 
 	public void desenhar() {
-		
+
 		identificar();
-		
+
 		int brancos = 0;
 		for (int linha = 0; linha <= 8; linha++) {
 			for (int coluna = 0; coluna <= ALTURA; coluna++) {
@@ -21,9 +22,8 @@ public class ExC extends DesenhoAbstrato {
 			brancos++;
 			System.out.print("\n");
 		}
-		
-	}
 
+	}
 
 	@Override
 	protected String getNome() {
